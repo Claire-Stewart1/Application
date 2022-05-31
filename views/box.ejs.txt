@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<form action = '/box' method = "POST">
+
+<p> I have read or have had read to me the participant information sheet
+for this study and have asked all the questions I have at this time. I
+understand that the study will involve observation of my visit with the
+clinic nurse. I understand that the condition for which I am being seen
+will be recorded, but no other information about me will be collected. </p>
+
+<input type = "checkbox" id = "accept" name = "accept"> 
+
+<p> </p>
+<label for = "fname"> First name: </label><br>
+<input type = "text" id="fname" name="fname"><br>
+<label for = "lname"> Last name: </label><br>
+<input type = "text" id = "lname" name = "lname">
+<p> Signature: </p>
+<input type = "file" id = "img" name = "img" accept = "image/*">
+<p> </p>
+<input type = "submit" value = "Submit">
+
+</form>
+
+</html>
